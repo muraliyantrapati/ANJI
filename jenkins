@@ -1,8 +1,8 @@
    pipeline {
     agent any  
     stages {
-        stage('build') { 
-            steps { sh echo 'running to build pharse' }
+        stage ('build') { 
+            steps { sh "echo Hello from the shell" }
         }
     }
 }
