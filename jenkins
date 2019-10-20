@@ -2,9 +2,7 @@
     agent any  
     stages {
         stage('build') { 
-            steps { echo 'running to build pharse'
-                
-            }
+            steps { echo 'running to build pharse' }
         }
     }
 }
